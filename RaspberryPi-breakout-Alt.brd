@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0125" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -144,14 +144,14 @@
 <wire x1="35.23" y1="30.48" x2="35.23" y2="43.17" width="0" layer="20"/>
 <wire x1="35.23" y1="43.17" x2="0" y2="43.17" width="0" layer="20"/>
 <wire x1="0" y1="43.17" x2="0" y2="30.48" width="0" layer="20"/>
-<text x="21.5519" y="33.58515" size="0.8128" layer="21" rot="R90">5V</text>
-<text x="15.6083" y="4.8641" size="0.8128" layer="21" rot="SR270">GND</text>
+<text x="22.29485" y="6.6294" size="0.8128" layer="21" rot="R180">5V</text>
+<text x="13.2334" y="1.0033" size="0.8128" layer="21" rot="SR0">GND</text>
 <text x="18.67535" y="16.12265" size="0.6096" layer="21">GPIO23</text>
 <text x="18.7706" y="13.58265" size="0.6096" layer="21">GPIO24</text>
 <text x="18.5801" y="8.50265" size="0.6096" layer="21">GPIO25</text>
-<text x="18.52295" y="6.5405" size="0.6096" layer="21">GPIO8</text>
-<text x="18.48485" y="4.1529" size="0.6096" layer="21">GPIO7</text>
-<text x="13.7033" y="6.7691" size="0.6096" layer="21">GPIO11</text>
+<text x="19.15795" y="11.6205" size="0.6096" layer="21">GPIO8</text>
+<text x="16.89735" y="4.1529" size="0.6096" layer="21">GPIO7</text>
+<text x="13.3858" y="14.7066" size="0.6096" layer="21">GPIO11</text>
 <text x="13.7033" y="9.3091" size="0.6096" layer="21">GPIO9</text>
 <text x="13.7033" y="11.8491" size="0.6096" layer="21">GPIO10</text>
 <text x="13.7033" y="16.6116" size="0.6096" layer="21">GPIO22</text>
@@ -163,27 +163,24 @@
 <text x="18.9992" y="26.91765" size="0.6096" layer="21">GPIO14</text>
 <text x="18.63725" y="24.37765" size="0.6096" layer="21">GPIO15</text>
 <text x="18.7706" y="21.83765" size="0.6096" layer="21">GPIO18</text>
-<text x="18.1356" y="31.2039" size="0.8128" layer="22" rot="MR270">Raspberry Pi Rev 1 Model B</text>
-<text x="14.26845" y="9.271" size="0.8128" layer="22" rot="MR270">HokieGeek</text>
-<text x="21.717" y="8.78205" size="0.8128" layer="22" rot="MR270">20151119</text>
+<text x="37.5031" y="35.3314" size="0.8128" layer="22" rot="MR270">Raspberry Pi Rev 1 Model B</text>
+<text x="32.04845" y="27.051" size="0.8128" layer="22" rot="MR270">HokieGeek</text>
+<text x="34.7345" y="26.56205" size="0.8128" layer="22" rot="MR270">20151119</text>
 <text x="16.8783" y="29.3116" size="0.8128" layer="21" rot="R180">SCL</text>
 <text x="14.6558" y="30.8991" size="0.8128" layer="21">SDA</text>
 <text x="14.0208" y="25.8191" size="0.8128" layer="21">CLK0</text>
 <text x="14.0208" y="10.5791" size="0.8128" layer="21">MOSI</text>
 <text x="14.0208" y="8.0391" size="0.8128" layer="21">MISO</text>
-<text x="13.7033" y="5.4991" size="0.8128" layer="21">SCLK</text>
-<text x="19.74215" y="2.78765" size="0.8128" layer="21">SC1</text>
-<text x="19.7993" y="5.32765" size="0.8128" layer="21">CS0</text>
+<text x="14.0208" y="13.7541" size="0.8128" layer="21">SCLK</text>
+<text x="17.20215" y="3.42265" size="0.8128" layer="21">SC1</text>
+<text x="19.7993" y="10.72515" size="0.8128" layer="21">CS0</text>
 <text x="18.9992" y="20.56765" size="0.8128" layer="21">PWM0</text>
 <text x="20.3708" y="23.10765" size="0.8128" layer="21">RX</text>
 <text x="20.4089" y="25.64765" size="0.8128" layer="21">TX</text>
-<text x="21.5519" y="31.04515" size="0.8128" layer="21" rot="R90">5V</text>
-<text x="15.6083" y="15.0241" size="0.8128" layer="21" rot="SR270">3V3</text>
-<text x="15.6083" y="25.1841" size="0.8128" layer="21" rot="SR270">GND</text>
-<text x="21.5519" y="27.87015" size="0.8128" layer="21" rot="R90">GND</text>
-<text x="21.7424" y="17.98955" size="0.8128" layer="21" rot="R90">GND</text>
-<text x="21.72335" y="10.05205" size="0.8128" layer="21" rot="R90">GND</text>
-<text x="15.7226" y="35.2933" size="0.8128" layer="21" rot="SR270">3V3</text>
+<text x="14.67485" y="6.6294" size="0.8128" layer="21" rot="R180">5V</text>
+<text x="13.5509" y="3.5433" size="0.8128" layer="21" rot="SR0">3V3</text>
+<text x="22.33295" y="1.72085" size="0.8128" layer="21" rot="R180">GND</text>
+<text x="20.5867" y="3.6576" size="0.8128" layer="21" rot="SR0">3V3</text>
 <wire x1="8.89" y1="0" x2="8.89" y2="30.48" width="0" layer="20"/>
 <wire x1="8.89" y1="30.48" x2="0" y2="30.48" width="0" layer="20"/>
 <wire x1="26.67" y1="0" x2="26.67" y2="30.48" width="0" layer="20"/>
